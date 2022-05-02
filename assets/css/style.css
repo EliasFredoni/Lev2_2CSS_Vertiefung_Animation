@@ -1,0 +1,41 @@
+div {
+    width: 100px;
+    height: 100px;
+    background: red;
+    position: relative;
+    animation: ball 5s infinite;
+    border-radius: 50%;
+}
+
+
+@keyframes ball {
+    0% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+
+    25% {
+        top: 0px;
+        left: 500px;
+        background: orange;
+    }
+
+    50% {
+        top: 500px;
+        left: 500px;
+        background: greenyellow;
+    }
+
+    75% {
+        top: 500px;
+        left: 0px;
+        background: blue;
+    }
+
+    100% {
+        top: 0px;
+        left: 0px;
+        background: red;
+    }
+}
